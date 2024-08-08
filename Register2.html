@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KU House Allocation - Register</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<button onclick="goBack()"> Back</button>
+  
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+<body>
+  <div class="register-container">
+    <h1>Register</h1>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="Full Name" class="name-input">
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Email" class="email-input">
+        <span class="error-message" id="email-error"></span>
+      </div>
+      <div class="form-group">
+        <input type="tel" placeholder="Phone Number" class="phone-input">
+      </div>
+      <div class="form-group">
+        <input type="password" placeholder="Password" class="password-input">
+      </div>
+      <div class="form-group">
+        <input type="password" placeholder="Confirm Password" class="confirm-password-input">
+        <span class="error-message" id="password-match-error"></span>
+      </div>
+      <div class="submit-btn">
+        <button class="submit-btn">Register</button>
+        
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

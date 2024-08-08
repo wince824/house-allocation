@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> KENYATTA UNIVERSITY HOUSE ALLOCATION</title>
+</head>
+<body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <h2><a href="contact.html">more</a></h2>
+        </div>
+        <div class="navbar">
+          <div class="logo">
+            <h1><a href="landingpage.html">KENYATTA UNIVERSITY </a></h1>
+          </div>
+        
+          <div class="buttons">
+            <button class="register-btn"><a href="Register2.html">Register</a> </button>
+            <button class="signin-btn"><a href="login.html">Sign in</a></button>
+          </div>
+        </div>
+      </nav>
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>Slideshow Images Page</title>
+        <style>
+          /* Slideshow container */
+          .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: 0 auto;
+          
+          }
+      
+          /* Slides */
+          .slide {
+            display: none;
+            width: 100%;
+          }
+      
+          /* Slide images */
+          .slide img {
+            width: 100%;
+            height: auto;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="slideshow-container">
+          <!-- Slide 1 -->
+          <div class="slide">
+            <img src="NHC.jpg" alt="Image 1">
+          </div>
+      
+          <!-- Slide 2 -->
+          <div class="slide">
+            <img src="N1.jpg" alt="Image 2">
+          </div>
+      
+          <!-- Slide 3 -->
+          <div class="slide">
+            <img src="3.jpg" alt="Image 3">
+          </div>
+        </div>
+      
+        <div class="slideshow-container">
+          <!-- Slide 4 -->
+          <div class="slide">
+            <img src="4.png" alt="Image 4">
+          </div>
+        <script>
+          var currentSlide = 0;
+          var slides = document.getElementsByClassName("slide");
+      
+          function showSlide(n) {
+            if (n >= slides.length) {
+              currentSlide = 0;
+            } else if (n < 0) {
+              currentSlide = slides.length - 1;
+            } else {
+              currentSlide = n;
+            }
+      
+            for (var i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+      
+            slides[currentSlide].style.display = "block";
+          }
+      
+          setInterval(function() {
+            showSlide(currentSlide + 1);
+          }, 2000); // Set the interval to 2 seconds (2000 milliseconds)
+        </script>
+      </body>
+      </html>
+      
+      
+       
+          
+        
+        <!--vision begins
+          <div class="content">
+             
+          </div>
+        
+          <div id="content">
+            <div class="section">
+              <h2>Our Vision</h2>
+              <p>To be a world-class university committed to quality and relevance in teaching, research, innovation, and service for sustainable development.</p>
+            </div>
+        
+            <div class="section">
+              <h2>Our Mission</h2>
+              <p>To provide quality education and training, promote scholarship, service, innovation, and creativity and inculcate moral values for sustainable individual and societal development.</p>
+            </div>
+        
+            <div class="section">
+              <h2>House Allocation Procedure</h2>
+              <
+                <li>Visit the Kenyatta University Housing Allocation website.</li>
+                <li>Sign in using your credentials.</li>
+                <li>Fill the applicant Particulars Form.</li>
+                <li>Submit your housing application.</li>
+                <li>Allocation results will be communicated via the website.</li>
+                <li>If allocated a house, proceed with the agreement process.</li>
+                <li>Collect your house keys from the allocated housing office.</li>
+              </ol>
+            </div>
+          </div>
+          <div id="footer">
+            <h1>Happy To Serve You</h1>
+          </div>
+      
+</body>
+</html>

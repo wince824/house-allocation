@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KU House Allocation - Particulars Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <button onclick="goBack()"> Back</button>
+  
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  <div class="particulars-container">
+    <h1>Particulars Form</h1>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="Name" class="name-input">
+      
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="PF No" class="pfno-input">
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Grade" class="grade-input">
+      </div>
+      <div class="form-group">
+        <label for="first-appointment">Date of First Appointment:</label>
+        <input type="date" id="first-appointment" class="first-appointment-input">
+      </div>
+      <div class="form-group">
+        <form onsubmit="return validateForm()">
+        <label for="application-date">Date of Application:</label>
+        <input type="date" id="application-date" class="application-date-input">
+       
+      </div>
+      <div class="form-group">
+        <label for="marital-status">Marital Status:</label>
+        <select id="marital-status" class="marital-status-input">
+          <option value="single">Single</option>
+          <option value="married">Married</option>
+          <option value="divorced">Divorced</option>
+          <option value="widowed">Widowed</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="number" placeholder="Family Size" class="family-size-input">
+      </div>
+      <div class="submit-btn">
+        <a href="leaseagreement.html">submit </a></button>
+      </div>
+      <style>
+        body {
+          background-color: rgb(76, 76, 102);
+        }
+        </style>
+    </form>
+  </div>
+</body>
+</html>

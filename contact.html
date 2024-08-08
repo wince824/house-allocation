@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       body {
+            background-image: url("5.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: relative;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .button {
+      width: 100px;
+      height: 25px;
+      display: block;
+      background-color: #FFB10A;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    right: 50%;
+    transform: translateX(80%);
+  
+    }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="landingpage.html">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Services
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">House allocation</a>
+            <a href="#">House application</a>
+            <a href="#">Visitation</a>
+            <a href="#">Maintenence</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Contact Us
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <p>Email: <a class="email-link" href="mailto:info@ku.ac.ke.">info@ku.ac.ke</a></p>
+          <p>Telephone: <a class="tel-link" href="tel:+254722294403">+254722294403</a></p>
+        
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">About
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#"> <h2>About Kenyatta University</h2>
+              <p>
+                Kenyatta University is a leading public university in Nairobi, Kenya. It was established in 1965 and is named after Jomo Kenyatta, Kenya's first president. The university offers a wide range of academic programs and has a diverse student population.
+              </p>
+              <p>
+                Kenyatta University is known for its strong emphasis on research and innovation. It has state-of-the-art facilities and a dedicated faculty that is committed to providing quality education and fostering intellectual growth.
+              </p>
+              <p>
+                The university campus is located in a serene environment, providing a conducive atmosphere for learning and personal development. It offers various extracurricular activities, including sports, clubs, and cultural events, to enhance the overall student experience.
+              </p>
+              <p>
+                Whether you are interested in pursuing undergraduate or postgraduate studies, Kenyatta University provides a vibrant and supportive community that prepares students for successful careers and lifelong learning.
+              </p>
+              <a href="learn.html" class="button">Learn More</a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
